@@ -1,53 +1,53 @@
-:root {
-  --brand-color: #2196f3;
+body {
+  background-color: #ffffff;
+  color: #757575;
 }
-ul {
+
+.list {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
+/*цвет заголовков color: #212121;;
+
+цвет основного текста color: #757575;
+
+белый color: #FFFFFF;
+
+акцент background: #2196F3;*/
+
 .logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
   color: #000000;
-  text-decoration: none;
+}
+.logo span {
+  color: #2196f3;
 }
 
-.icon {
-  color: var(--brand-color);
-}
-
-.site-nav-list {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+/*site-nave*/
+.site-nav a {
   color: #212121;
-  text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
 }
 
-.site-nav-list:hover,
-.site-nav-list:focus {
-  color: var(--brand-color);
-}
-
-.contacts-list {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+/*contacts*/
+.contacts a {
   color: #757575;
-  text-decoration: none;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: #2196f3;
 }
 
-.contacts-list:hover,
-.contacts-list:focus {
-  color: var(--brand-color);
+.banner {
+  background-color: #2f303a;
+}
+/*title*/
+.title {
+  color: #ffffff;
 }
