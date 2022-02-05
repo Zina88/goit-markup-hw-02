@@ -101,3 +101,26 @@ body {
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+/*Portfolio*/
+/*buttons*/
+.btn {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/*галлерея фото*/
+.section-items {
+  color: var(--title-text-color);
+}
