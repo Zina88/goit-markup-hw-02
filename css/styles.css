@@ -1,53 +1,103 @@
-body {
-  background-color: #ffffff;
-  color: #757575;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --section-color: #2f303a;
 }
 
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+/*для скрятия маркеров*/
 .list {
   list-style: none;
 }
 
+/*для скрытия подчеркивания*/
 .link {
   text-decoration: none;
 }
-
-/*цвет заголовков color: #212121;;
-
-цвет основного текста color: #757575;
-
-белый color: #FFFFFF;
-
-акцент background: #2196F3;*/
-
+/*логотип*/
 .logo {
   color: #000000;
 }
 .logo span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-/*site-nave*/
+/*навигация*/
 .site-nav a {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-/*contacts*/
+/*контакты*/
 .contacts a {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contacts a:hover,
 .contacts a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.banner {
-  background-color: #2f303a;
+.hero {
+  background-color: var(--section-color);
 }
-/*title*/
-.title {
-  color: #ffffff;
+/*hero*/
+.hero-title {
+  color: var(--white-color);
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/*Особенности*/
+.section-subtitle {
+  color: var(--title-text-color);
+}
+
+/*чем мы занимаемся*/
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*наша команда*/
+.section-icon {
+  background-color: #f5f4fa;
+}
+.section-avatar {
+  color: var(--title-text-color);
+}
+
+.icon {
+  background-color: ;
+}
+
+/*footer*/
+.footer {
+  background-color: var(--section-color);
+}
+
+.logo-footer {
+  color: var(--white-color);
+}
+
+.logo-footer span {
+  color: var(--accent-color);
+}
+
+.footer-addres {
+  color: var(--white-color);
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
 }
